@@ -28,7 +28,7 @@ namespace TOTP.Lib
 
         public static string GetTotp(string base32EncodedSecret)
         {
-            DateTime epochStart = new DateTime(1970, 1, 1);
+            DateTime epochStart = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
             long counter = (long)Math.Floor((DateTime.UtcNow - epochStart).TotalSeconds / 30);
             return GetHotp(base32EncodedSecret, counter);
         }
