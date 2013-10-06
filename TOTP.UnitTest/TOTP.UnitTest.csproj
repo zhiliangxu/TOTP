@@ -6,8 +6,8 @@
     <ProjectGuid>{EB31A996-883B-4CD9-A4F4-D46063E008D4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TOTP.UnitTes</RootNamespace>
-    <AssemblyName>TOTP.UnitTes</AssemblyName>
+    <RootNamespace>TOTP.UnitTest</RootNamespace>
+    <AssemblyName>TOTP.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

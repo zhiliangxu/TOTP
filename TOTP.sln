@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.App", "TOTP.App\TOTP.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.Lib", "TOTP.Lib\TOTP.Lib.csproj", "{9FF44D9E-96DD-4E8C-985B-DAAEDABBFD2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.UnitTes", "TOTP.UnitTes\TOTP.UnitTes.csproj", "{EB31A996-883B-4CD9-A4F4-D46063E008D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TOTP.UnitTest", "TOTP.UnitTest\TOTP.UnitTest.csproj", "{EB31A996-883B-4CD9-A4F4-D46063E008D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

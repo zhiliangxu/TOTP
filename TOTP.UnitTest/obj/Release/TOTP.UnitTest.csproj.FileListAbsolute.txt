@@ -1,0 +1,7 @@
+D:\code\TOTP\TOTP.UnitTest\bin\Release\TOTP.UnitTest.dll
+D:\code\TOTP\TOTP.UnitTest\bin\Release\TOTP.UnitTest.pdb
+D:\code\TOTP\TOTP.UnitTest\bin\Release\TOTP.Lib.dll
+D:\code\TOTP\TOTP.UnitTest\bin\Release\TOTP.Lib.pdb
+D:\code\TOTP\TOTP.UnitTest\obj\Release\TOTP.UnitTest.csprojResolveAssemblyReference.cache
+D:\code\TOTP\TOTP.UnitTest\obj\Release\TOTP.UnitTest.dll
+D:\code\TOTP\TOTP.UnitTest\obj\Release\TOTP.UnitTest.pdb
