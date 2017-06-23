@@ -1,7 +1,8 @@
-# HMAC Time-based One-Time Password in C#
+# HMAC[1] Time-based One-Time Password in C#
 
 ## How to Use
 Reference `TOTP.Lib` project, or the DLL it generates.
+
 Sample code
 ```csharp
 using System;
@@ -23,3 +24,5 @@ namespace TOTP.App
     }
 }
 ```
+
+[1]: https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm
