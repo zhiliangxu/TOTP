@@ -3,7 +3,7 @@
 ## How to Use
 Reference `TOTP.Lib` project, or the DLL it generates.
 
-Sample code
+## Sample code
 ```csharp
 using System;
 using System.Threading;
