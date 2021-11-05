@@ -1,5 +1,4 @@
-﻿
-namespace TOTP.Lib
+﻿namespace TOTP.Lib
 {
     public static class EncodingExtensions
     {

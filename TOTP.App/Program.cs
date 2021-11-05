@@ -10,7 +10,7 @@ namespace TOTP.App
             string secret = "HOOZZ4QRPSWBNPAN";
             while (true)
             {
-                Console.WriteLine("{0} {1}", DateTime.Now, TOTP.Lib.TOTP.GetTotp(secret));
+                Console.WriteLine("{0} {1}", DateTime.Now, Lib.TOTP.GetTotp(secret));
                 Thread.Sleep(1000 * 3);
             }
         }

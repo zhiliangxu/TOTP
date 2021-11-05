@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using System.Security.Cryptography;
 
 namespace TOTP.Lib
@@ -8,12 +7,12 @@ namespace TOTP.Lib
     {
         public static string GetHotp(string base32EncodedSecret, long counter)
         {
-            byte[] message = BitConverter.GetBytes(counter)
-                .Reverse().ToArray(); // Assuming Intel machine (little endian)
+            byte[] message = BitConverter.GetBytes(counter);
+            Array.Reverse(message); // Assuming Intel machine (little endian)
             byte[] secret = base32EncodedSecret.ToByteArray();
 
             byte[] hash;
-            using (HMACSHA1 hmac = new HMACSHA1(secret, true))
+            using (HMAC hmac = new HMACSHA1(secret, true))
             {
                 hash = hmac.ComputeHash(message);
             }
